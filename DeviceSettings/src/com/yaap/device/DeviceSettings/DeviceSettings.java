@@ -15,7 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package com.yaap.device.DeviceSettings;
+package com.awaken.device.DeviceSettings;
 
 import android.app.ActivityManager;
 import android.content.BroadcastReceiver;
@@ -39,8 +39,8 @@ import androidx.preference.PreferenceFragment;
 import androidx.preference.SwitchPreference;
 import androidx.preference.TwoStatePreference;
 
-import com.yaap.device.DeviceSettings.ModeSwitch.DCModeSwitch;
-import com.yaap.device.DeviceSettings.ModeSwitch.HBMModeSwitch;
+import com.awaken.device.DeviceSettings.ModeSwitch.DCModeSwitch;
+import com.awaken.device.DeviceSettings.ModeSwitch.HBMModeSwitch;
 
 public class DeviceSettings extends PreferenceFragment
         implements Preference.OnPreferenceChangeListener {

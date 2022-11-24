@@ -15,7 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package com.yaap.device.DeviceSettings;
+package com.awaken.device.DeviceSettings;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -24,7 +24,7 @@ import android.content.IntentFilter;
 import android.service.quicksettings.Tile;
 import android.service.quicksettings.TileService;
 
-import com.yaap.device.DeviceSettings.ModeSwitch.HBMModeSwitch;
+import com.awaken.device.DeviceSettings.ModeSwitch.HBMModeSwitch;
 
 public class HBMModeTileService extends TileService {
 

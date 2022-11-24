@@ -15,13 +15,13 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package com.yaap.device.DeviceSettings;
+package com.awaken.device.DeviceSettings;
 
 import android.graphics.drawable.Icon;
 import android.service.quicksettings.Tile;
 import android.service.quicksettings.TileService;
 
-import com.yaap.device.DeviceSettings.ModeSwitch.DCModeSwitch;
+import com.awaken.device.DeviceSettings.ModeSwitch.DCModeSwitch;
 
 public class DCModeTileService extends TileService {
     private boolean mEnabled = false;

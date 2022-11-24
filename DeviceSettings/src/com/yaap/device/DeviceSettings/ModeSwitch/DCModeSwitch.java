@@ -15,7 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package com.yaap.device.DeviceSettings.ModeSwitch;
+package com.awaken.device.DeviceSettings.ModeSwitch;
 
 import android.content.SharedPreferences;
 import android.content.Context;
@@ -24,13 +24,13 @@ import android.os.UserHandle;
 
 import androidx.preference.PreferenceManager;
 
-import com.yaap.device.DeviceSettings.Utils;
+import com.awaken.device.DeviceSettings.Utils;
 
 public class DCModeSwitch {
 
     private static final String FILE = "/sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/dimlayer_bl_en";
     
-    public static final String ACTION_DCMODE_CHANGED = "com.yaap.device.DeviceSettings.ModeSwitch.DCMODE_CHANGED";
+    public static final String ACTION_DCMODE_CHANGED = "com.awaken.device.DeviceSettings.ModeSwitch.DCMODE_CHANGED";
     public static final String EXTRA_DCMODE_STATE = "enabled";
     public static final String KEY_DC_SWITCH = "dc";
 

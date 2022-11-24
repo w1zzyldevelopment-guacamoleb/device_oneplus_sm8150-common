@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.yaap.device.DeviceSettings;
+package com.awaken.device.DeviceSettings;
 
 import android.app.NotificationManager;
 import android.content.Context;

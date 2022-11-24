@@ -15,7 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package com.yaap.device.DeviceSettings;
+package com.awaken.device.DeviceSettings;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
@@ -122,7 +122,7 @@ public class Utils {
     public static String getStringForResourceName(final Resources res,
                                                   final String resourceName,
                                                   final String defaultValue) {
-        final int resId = res.getIdentifier(resourceName, "string", "com.yaap.device.DeviceSettings");
+        final int resId = res.getIdentifier(resourceName, "string", "com.awaken.device.DeviceSettings");
         if (resId <= 0) {
             Log.e(TAG, "No resource found for " + resourceName);
             return defaultValue;

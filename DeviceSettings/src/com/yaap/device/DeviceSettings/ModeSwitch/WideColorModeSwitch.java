@@ -15,12 +15,12 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package com.yaap.device.DeviceSettings.ModeSwitch;
+package com.awaken.device.DeviceSettings.ModeSwitch;
 
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 
-import com.yaap.device.DeviceSettings.Utils;
+import com.awaken.device.DeviceSettings.Utils;
 
 public class WideColorModeSwitch implements OnPreferenceChangeListener {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.yaap.device.DeviceSettings;
+package com.awaken.device.DeviceSettings;
 
 import android.app.Service;
 import android.content.BroadcastReceiver;
@@ -45,7 +45,7 @@ import java.lang.Math;
 
 public class FPSInfoService extends Service {
     public static final String ACTION_FPS_SERVICE_CHANGED =
-            "com.yaap.device.DeviceSettings.FPS_SERVICE_CHANGED";
+            "com.awaken.device.DeviceSettings.FPS_SERVICE_CHANGED";
     public static final String EXTRA_FPS_STATE = "running";
 
     private View mView;
